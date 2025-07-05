@@ -38,7 +38,7 @@ pip install yt-dlp httpx tqdm
 To run the script via the command line, simply provide one or more YouTube video URLs or video IDs:
 
 ```bash
-python scraper.py <video_url_1> <video_url_2> ...
+python scraper.py <video_url_1>,<video_url_2> ...
 ```
 
 If no URLs are provided, the script will prompt you to enter YouTube video URLs or IDs interactively.
@@ -54,7 +54,7 @@ python scraper.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
 If no video URLs or IDs are specified on the command line, the script will ask the user to enter URLs interactively:
 
 ```bash
-Enter one or more YouTube video URLs or IDs: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Enter one or more YouTube video URLs or IDs: dQw4w9WgXcQ
 ```
 
 ## Caching
